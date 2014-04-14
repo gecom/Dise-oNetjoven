@@ -301,4 +301,97 @@ footer{display:none}
 .destacado .image_destacado{width:320px;}
 .destacado .image_destacado .txt{font-size:1em}
 #add_and_plugin_fb{display:none}
-}
+}.close_popup{width:18px;height:18px;-webkit-border-radius:9px;-moz-border-radius:9px;border-radius:9px;position:absolute;right:0;top:0;}
+.close_popup a{width:18px;height:18px;-webkit-border-radius:9px;-moz-border-radius:9px;border-radius:9px;display:block;color:#cecece;text-align:center;text-decoration:none}
+#popup_login{padding:19px;position:relative;width:359px;}
+#popup_login .options_login{background-color:#3a3a3a;width:321px;-webkit-border-radius:10px;-moz-border-radius:10px;border-radius:10px;overflow:hidden;}
+#popup_login .options_login .welcome{color:#8c8c8c;height:40px;padding:0 0 0 14px;line-height:40px;text-align:left;}
+#popup_login .options_login .welcome .user_av{background:url("../images/sprite.png") -71px -497px no-repeat;float:right;margin-right:15px;width:21px;height:21px;display:block;margin-top:10px}
+#popup_login .options_login .pick_color{border-top:1px solid #3d3d3d;width:100%;background-color:#353535;padding-left:14px;text-align:left;font-size:.9em;}
+#popup_login .options_login .pick_color .t1{display:block;text-align:left;color:#cfcfcf;padding:3px 0 1px}
+#popup_login .options_login .pick_color ul{width:100%;text-align:left;}
+#popup_login .options_login .pick_color ul li{display:inline-block;-webkit-border-radius:10px;-moz-border-radius:10px;border-radius:10px;overflow:hidden;margin-right:7px;}
+#popup_login .options_login .pick_color ul li a{background:none;width:20px;height:20px;display:block}
+#popup_login .options_login .pick_color .t2{display:inline-block;color:#cfcfcf;padding:5px 0;text-align:left}
+#popup_login .options_login .pick_color .save,#popup_login .options_login .pick_color .cancel{background:url("../images/sprite.png");display:inline-block;width:21px;height:21px;float:right;margin-right:7px;margin-top:4px}
+#popup_login .options_login .pick_color .save{background-position:-3px -499px;}
+#popup_login .options_login .pick_color .save:hover{background-position:-3px -523px}
+#popup_login .options_login .pick_color .cancel{background-position:-33px -499px;margin-right:16px;}
+#popup_login .options_login .pick_color .cancel:hover{background-position:-35px -523px}
+#popup_login .options_login .share{height:56px;border-top:1px solid #3d3d3d;width:100%;background-color:#353535;text-align:left;font-size:.9em;}
+#popup_login .options_login .share span{display:inline-block;padding:17px 0 0 15px;color:#cfcfcf}
+#popup_login .options_login .share a{float:right;color:#cfcfcf;text-decoration:none;margin-right:2px;text-align:center;width:42px;height:45px;margin-top:5px;text-align:center;background:none;font-size:11px;display:inline-block;}
+#popup_login .options_login .share a span{width:32px;height:29px;display:inline-block;background:url("../images/sprite.png")}
+#popup_login .options_login .share .fb span{background-position:3px -461px;}
+#popup_login .options_login .share .fb span:hover{background-position:-104px -461px}
+#popup_login .options_login .share .tw span{background-position:-35px -461px;}
+#popup_login .options_login .share .tw span:hover{background-position:-142px -461px}
+#popup_login .options_login .share .gp{margin-right:8px;}
+#popup_login .options_login .share .gp span{background-position:-71px -461px;}
+#popup_login .options_login .share .gp span:hover{background-position:-178px -461px}
+#popup_login .options_login .change{height:47px;width:100%;padding-left:15px;color:#cfcfcf;text-align:left;font-size:.85em;}
+#popup_login .options_login .change span{display:inline-block;padding-top:13px}
+#popup_login .options_login .change a{float:right;width:25px;height:25px;display:inline-block;margin-right:15px;margin-top:10px;background:url("../images/sprite.png");}
+#popup_login .options_login .change a.v3{background-position:-207px -509px;}
+#popup_login .options_login .change a.v3:hover{background-position:-144px -509px}
+#popup_login .options_login .change a.v2{margin-right:6px;background-position:-176px -509px;}
+#popup_login .options_login .change a.v2:hover{background-position:-113px -509px}
+#popup_usuario_no_registrado{padding:19px;position:relative;width:364px;}
+#popup_usuario_no_registrado .message{-webkit-border-radius:10px;-moz-border-radius:10px;border-radius:10px;border:1px solid #e1e1e1;background:#fff;width:326px;text-align:center;padding-top:10px;overflow:hidden;}
+#popup_usuario_no_registrado .message .no_user{display:inline-block;width:41px;height:41px;background:url("../images/sprite.png") -189px -291px no-repeat}
+#popup_usuario_no_registrado .message .red{color:#ce3038}
+#popup_usuario_no_registrado .message .share{width:324px;height:45px;background-color:#f1f1f1;padding-top:6px;margin-top:10px;}
+#popup_usuario_no_registrado .message .share a{background:url("../images/sprite.png") -189px -291px no-repeat;width:32px;height:31px;display:inline-block;margin:0 4px;}
+#popup_usuario_no_registrado .message .share a.fb{background-position:3px -461px;}
+#popup_usuario_no_registrado .message .share a.fb:hover{background-position:-104px -461px}
+#popup_usuario_no_registrado .message .share a.tw{background-position:-35px -461px;}
+#popup_usuario_no_registrado .message .share a.tw:hover{background-position:-142px -461px}
+#popup_usuario_no_registrado .message .share a.gp{background-position:-71px -461px;}
+#popup_usuario_no_registrado .message .share a.gp:hover{background-position:-178px -461px}
+#popup_usuario_logueado{width:504px;padding:19px;position:relative;}
+#popup_usuario_logueado .message{width:466px;background:#fff;text-align:center;padding-top:10px;border:1px solid #e1e1e1;-webkit-border-radius:10px;-moz-border-radius:10px;border-radius:10px;overflow:hidden;}
+#popup_usuario_logueado .message figure{-webkit-border-radius:20px;-moz-border-radius:20px;border-radius:20px;margin-top:10px;overflow:hidden;width:40px;height:40px;display:inline-block}
+#popup_usuario_logueado .message .f1{font-size:1.5em}
+#popup_usuario_logueado .message .f2{font-size:.9em}
+#popup_usuario_logueado .message .f3{font-size:1.35em}
+#popup_usuario_logueado .message .share{height:65px;padding-top:7px;background-color:#f1f1f1;font-size:.8em;line-height:1.1em;}
+#popup_usuario_logueado .message .share .f4{width:21px;height:21px;display:inline-block;margin-top:5px;background:url("../images/sprite.png") -198px -339px no-repeat}
+#popup_personaliza_pagina{padding:19px;position:relative;width:525px;}
+#popup_personaliza_pagina .message{width:487px;background:#fff;text-align:center;padding-top:10px;-webkit-border-radius:10px;-moz-border-radius:10px;border-radius:10px;border:1px solid #e1e1e1;overflow:hidden;}
+#popup_personaliza_pagina .message .opt_2,#popup_personaliza_pagina .message .opt_3,#popup_personaliza_pagina .message .opt_1{display:inline-block;width:29px;height:29px;background:url("../images/sprite.png") -175px -509px;margin-top:15px;margin-bottom:2px}
+#popup_personaliza_pagina .message .opt_3{background-position:-204px -509px}
+#popup_personaliza_pagina .message .opt_1{background-position:-147px -335px}
+#popup_personaliza_pagina .message .view{width:300px;display:inline-block;vertical-align:top;-webkit-box-shadow:1px 1px 4px 0 #6d6d6d;-moz-box-shadow:1px 1px 4px 0 #6d6d6d;box-shadow:1px 1px 4px 0 #6d6d6d;margin:0 0 20px 0;font-size:1rem;}
+#popup_personaliza_pagina .message .view .media{height:187px;width:300px;display:block;position:relative;overflow:hidden;}
+#popup_personaliza_pagina .message .view .media img{width:100%;height:auto}
+#popup_personaliza_pagina .message .view .text{height:77px;font-size:1.2em;line-height:21px;padding:10px 10px 5px;text-align:left}
+#popup_personaliza_pagina .message .view .opt{height:27px;background-color:#e2e2e2;width:300px;padding:0 10px;text-align:left;}
+#popup_personaliza_pagina .message .view .opt ul{font-size:0;}
+#popup_personaliza_pagina .message .view .opt ul li{display:inline-block;vertical-align:top;font-size:.8rem;}
+#popup_personaliza_pagina .message .view .opt ul li a{color:#6d6d6d}
+#popup_personaliza_pagina .message .view .opt ul .e1{width:127px;padding-top:8px}
+#popup_personaliza_pagina .message .view .opt ul .e2 a,#popup_personaliza_pagina .message .view .opt ul .e4 a{width:28px;height:20px;background:url("../images/sprite.png") 0 -191px;display:block;margin-top:4px}
+#popup_personaliza_pagina .message .view .opt ul .e4 a{background-position:-41px -191px}
+#popup_personaliza_pagina .message .view .opt ul .e3{padding:8px 20px 0 0;background:url("../images/sprite.png") 110px -216px;width:125px;text-align:right;background-repeat:no-repeat}
+#popup_personaliza_pagina .message .view.view_3{width:457px;}
+#popup_personaliza_pagina .message .view.view_3 .media{width:194px;height:120px;float:left}
+#popup_personaliza_pagina .message .view.view_3 .text{width:263px;float:left;height:93px}
+#popup_personaliza_pagina .message .view.view_3 .opt{width:263px;float:left}
+#popup_personaliza_pagina .message .view.view_3 .e1{width:105px !important}
+#popup_personaliza_pagina .message .view.view_3 .e3{width:110px !important;background-position:95px -217px !important}
+#popup_personaliza_pagina .message .save_cancel_opt{height:35px;background-color:#f1f1f1;font-size:.95em;padding-top:7px;}
+#popup_personaliza_pagina .message .save_cancel_opt .cancel{float:left;margin-left:20px;}
+#popup_personaliza_pagina .message .save_cancel_opt .cancel span{margin-right:10px;background-position:-34px -499px;float:left}
+#popup_personaliza_pagina .message .save_cancel_opt .cancel:hover{text-decoration:none}
+#popup_personaliza_pagina .message .save_cancel_opt .save{float:right;margin-right:20px;}
+#popup_personaliza_pagina .message .save_cancel_opt .save span{margin-left:10px;background-position:-4px -499px;float:right}
+#popup_personaliza_pagina .message .save_cancel_opt .save:hover{text-decoration:none}
+#popup_personaliza_pagina .message .save_cancel_opt span{width:20px;height:21px;background:url("../images/sprite.png") no-repeat}
+#popup_personaliza_pagina .message .f1{font-size:1.5em}
+#popup_personaliza_pagina .message .f2{display:inline-block;text-align:left;padding:0 20px;line-height:1.3em;}
+#popup_personaliza_pagina .message .f2 .f3{color:#ef8535}
+#popup_personaliza_pagina .message .f4{font-size:.85em;padding:10px 0 5px;display:inline-block}
+#popup_personaliza_pagina .message .f5{font-size:1.2em;display:inline-block;margin-bottom:10px;text-align:center}
+#popup_personaliza_pagina .message .congrats{color:#ef8535;font-size:1.9em;display:inline-block}
+#popup_personaliza_pagina .message .share{height:65px;padding-top:7px;background-color:#f1f1f1;font-size:.8em;line-height:1.1em;}
+#popup_personaliza_pagina .message .share .f6{width:21px;height:21px;display:inline-block;margin-top:5px;background:url("../images/sprite.png") -198px -339px no-repeat}
