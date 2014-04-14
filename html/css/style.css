@@ -278,7 +278,7 @@ footer{display:none}
 .destacado .image_destacado img{width:100%;height:auto}
 .destacado .image_destacado .link{display:none}
 #add_and_plugin_fb{display:block}
-}@media screen and (max-width:400px){.container,header,#main_nav{width:320px}
+}@media screen and (max-width:480px){.container,header,#main_nav{width:320px}
 #main_nav .menu_responsive .menu{margin-left:0;text-align:center}
 #main_nav .menu_responsive .options .search_box{width:252px}
 #main_nav .menu_responsive .options .circles{width:216px}
