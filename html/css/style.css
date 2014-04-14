@@ -292,7 +292,7 @@ footer{display:none}
 #ads .item{margin-left:20px;margin-bottom:20px;}
 #ads .item:nth-child(odd){margin-left:0}
 #ads .item .add_title{display:none}
-#bottom_responsive{height:65px;}
+#bottom_responsive{height:65px;width:320px;}
 #bottom_responsive .paginate{margin:0;width:320px;height:32px;}
 #bottom_responsive .paginate ul{margin-top:8px}
 #bottom_responsive .go_top{width:320px;height:26px;}
