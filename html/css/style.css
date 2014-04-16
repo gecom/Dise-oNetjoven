@@ -332,6 +332,7 @@ footer .footer_devices .fd2{background:url("../images/sprite.png") -144px -188px
 #portada_espectaculos.view_3 .more_news .news .opt .e1{width:111px}
 #portada_espectaculos.view_3 .more_news .news .opt .e3{width:104px;background-position:89px -217px}
 #portada_espectaculos .features{margin-top:20px;width:300px;margin-right:28px;margin-left:9px;display:inline-block;vertical-align:top;font-size:1rem;}
+#portada_espectaculos .features.subseccion_modular_listado,#portada_espectaculos .features.subseccion_modular{margin-left:22px;margin-right:9px}
 #portada_espectaculos .features .add{height:290px;padding:20px 0;width:300px;margin-bottom:40px;-webkit-box-shadow:1px 1px 4px 0 #6d6d6d;-moz-box-shadow:1px 1px 4px 0 #6d6d6d;box-shadow:1px 1px 4px 0 #6d6d6d;}
 #portada_espectaculos .features .add img{width:100%;height:auto}
 #portada_espectaculos .features .monsterbox{width:300px;height:600px;-webkit-box-shadow:1px 1px 4px 0 #6d6d6d;-moz-box-shadow:1px 1px 4px 0 #6d6d6d;box-shadow:1px 1px 4px 0 #6d6d6d;background-color:#666;margin-bottom:40px}
@@ -354,6 +355,8 @@ footer .footer_devices .fd2{background:url("../images/sprite.png") -144px -188px
 #portada_espectaculos .features .view2 .opt .e4 a{background-position:-41px -191px}
 #portada_espectaculos .features .view2 .opt .e3{background-position:111px -217px;width:126px}
 #portada_espectaculos .more_news_v2{margin-top:20px;width:608px;display:inline-block;vertical-align:top;font-size:1rem;}
+#portada_espectaculos .more_news_v2.subseccion_modular{margin-left:20px}
+#portada_espectaculos .more_news_v2.subseccion_modular_listado{margin-left:11px}
 #portada_espectaculos .more_news_v2 .news{-webkit-box-shadow:1px 1px 4px 0 #6d6d6d;-moz-box-shadow:1px 1px 4px 0 #6d6d6d;box-shadow:1px 1px 4px 0 #6d6d6d;float:left;margin-top:21px;}
 #portada_espectaculos .more_news_v2 .news:first-child{margin-top:0}
 #portada_espectaculos .more_news_v2 .news figure{width:194px;float:left;}
@@ -395,7 +398,7 @@ footer .footer_devices .fd2{background:url("../images/sprite.png") -144px -188px
 #portada_espectaculos.view_3 .more_news_v2 .news .opt .e1{width:111px}
 #portada_espectaculos.view_3 .more_news_v2 .news .opt .e3{width:104px;background-position:89px -217px}
 #portada_espectaculos.view_3 .plugin_fb{width:457px;height:261px;display:inline-block;-webkit-box-shadow:1px 1px 4px 0 #6d6d6d;-moz-box-shadow:1px 1px 4px 0 #6d6d6d;box-shadow:1px 1px 4px 0 #6d6d6d;margin:2px 0 16px}
-#portada_espectaculos .paginate{border-top:1px solid #d8d8d8;height:40px;padding:9px 15px 0 0;text-align:right;margin-bottom:-35px;}
+#portada_espectaculos .paginate{border-top:1px solid #d8d8d8;height:40px;padding:9px 15px 0 0;text-align:right;margin-bottom:-35px;margin-top:10px;}
 #portada_espectaculos .paginate ul{font-size:0;}
 #portada_espectaculos .paginate ul li{display:inline-block;width:16px;height:16px;-webkit-border-radius:8px;-moz-border-radius:8px;border-radius:8px;text-align:center;line-height:15px;font-size:1rem;margin-left:2px;}
 #portada_espectaculos .paginate ul li a{font-size:.9em;display:inline-block;color:#6d6d6d;line-height:auto}
@@ -499,6 +502,8 @@ footer{display:none}
 #portada_espectaculos .monsterbox{display:none}
 #portada_espectaculos .more_news_v2 .view2{display:none !important}
 #portada_espectaculos .left_column{width:768px;margin:0}
+#portada_espectaculos .left2_column{margin:0;}
+#portada_espectaculos .left2_column .monster_box{display:none}
 #portada_espectaculos .opt ul .e1{width:364px}
 #portada_espectaculos .opt ul .e3{width:355px;background-position:340px -217px}
 #portada_espectaculos .right_column{width:768px;text-align:center;}
@@ -506,11 +511,16 @@ footer{display:none}
 #portada_espectaculos .more_news{width:768px;text-align:center;}
 #portada_espectaculos .more_news .news:nth-child(3n+1){margin-left:18px}
 #portada_espectaculos .add{display:none}
-#portada_espectaculos .features{width:750px;}
-#portada_espectaculos .features .mas_visto .list .item{width:100%;}
-#portada_espectaculos .features .mas_visto .list .item .des{width:83%}
+#portada_espectaculos .features{width:750px !important;margin-right:9px;}
+#portada_espectaculos .features.subseccion_modular{margin-left:9px}
+#portada_espectaculos .features.subseccion_modular_listado{margin-left:9px}
+#portada_espectaculos .features .mas_visto{width:750px !important;margin-bottom:20px;}
+#portada_espectaculos .features .mas_visto .tab{background-position:706px -639px}
+#portada_espectaculos .features .mas_visto .list .item{width:750px !important;}
+#portada_espectaculos .features .mas_visto .list .item .des{width:83%;text-align:left}
 #portada_espectaculos .plugin_fb{display:none}
 #portada_espectaculos .more_news_v2{width:768px;text-align:center;}
+#portada_espectaculos .more_news_v2.subseccion_modular_listado{margin-left:0}
 #portada_espectaculos .more_news_v2 .news{width:700px;display:inline-block;float:none;}
 #portada_espectaculos .more_news_v2 .news .desc{width:504px}
 #portada_espectaculos .more_news_v2 .news .opt{width:506px;}
@@ -523,15 +533,17 @@ footer{display:none}
 #portada_espectaculos.view_3 .news figure img{width:100% !important;height:auto !important}
 #portada_espectaculos.view_3 .news:first-child{margin-left:0 !important}
 #portada_espectaculos.view_3 .news:nth-child(3n+1){margin-left:0 !important}
+#portada_espectaculos.view_3 .news:nth-child(even){margin-left:50px !important}
 #portada_espectaculos.view_3 .news .desc{width:300px !important}
 #portada_espectaculos.view_3 .news .opt{width:300px !important;}
 #portada_espectaculos.view_3 .news .opt .e1{width:122px !important}
 #portada_espectaculos.view_3 .news .opt .e4 a{background-position:-41px -191px}
 #portada_espectaculos.view_3 .news .opt .e3{background-position:111px -217px;width:126px !important}
-.view_3 .plugin_fb{display:none !important}
+.view_3 .plugin_fb{width:300px !important;overflow:hidden}
 .view_3 .portada_destacado .desc{width:495px !important}
-.view_3 .more_news .news,.view_3 .more_news_v2 .news{margin-left:0 !important;}
-.view_3 .more_news .news.nth-child(3n+1),.view_3 .more_news_v2 .news.nth-child(3n+1),.view_3 .more_news .news:first-child,.view_3 .more_news_v2 .news:first-child{margin-left:20 !important}
+.view_3 .features{text-align:center}
+.view_3 .more_news_v2 .news:nth-child(3n+1),.view_3 .more_news_v2 .news:nth-child(2n+1),.view_3 .more_news_v2 .news:first-child{margin:0 !important}
+.view_3 .more_news_v2 .news:nth-child(even){margin:50px !important}
 }@media screen and (max-width:480px){.container,header,#main_nav{width:320px}
 #main_nav .menu_responsive .menu{margin-left:0;text-align:center}
 #main_nav .menu_responsive .options .search_box{width:252px}
@@ -565,8 +577,11 @@ footer{display:none}
 #portada_espectaculos .more_news{width:320px;margin-left:0;}
 #portada_espectaculos .more_news .news{margin-left:0;text-align:center;}
 #portada_espectaculos .more_news .news:nth-child(3n+1){margin-left:0}
-#portada_espectaculos .features{width:300px;}
-#portada_espectaculos .features .list .item .des{width:165px !important}
+#portada_espectaculos .features{width:300px !important;text-align:left;}
+#portada_espectaculos .features .tab{background-position:256px -639px !important}
+#portada_espectaculos .features .mas_visto{width:300px !important;}
+#portada_espectaculos .features .mas_visto .list .item{width:300px !important;}
+#portada_espectaculos .features .mas_visto .list .item .des{width:165px !important}
 #portada_espectaculos .more_news_v2{width:320px;}
 #portada_espectaculos .more_news_v2 .news{width:300px;display:inline-block;vertical-align:top;font-size:1rem;margin-left:0;margin-top:20px;-webkit-box-shadow:1px 1px 4px 0 #6d6d6d;-moz-box-shadow:1px 1px 4px 0 #6d6d6d;box-shadow:1px 1px 4px 0 #6d6d6d;}
 #portada_espectaculos .more_news_v2 .news figure{width:100%;}
@@ -579,7 +594,8 @@ footer{display:none}
 #portada_espectaculos .more_news_v2 .news .opt .e4 a{background-position:-41px -191px}
 #portada_espectaculos .more_news_v2 .news .opt .e3{background-position:111px -217px;width:126px}
 #portada_espectaculos.view_3 .portada_destacado figure{width:300px;height:auto}
-#portada_espectaculos.view_3 .portada_destacado .desc{width:320px;height:auto}
+#portada_espectaculos.view_3 .portada_destacado .desc{width:300px !important;height:auto}
+#portada_espectaculos.view_3 .features{width:300px !important;margin:20px 10px 0}
 #portada_espectaculos.view_3 .mas_visto{width:300px !important;margin-bottom:20px}
 #portada_espectaculos.view_3 .add{display:none !important}
 #portada_espectaculos.view_3 .more_news_v2{width:320px}
@@ -588,6 +604,7 @@ footer{display:none}
 #portada_espectaculos.view_3 .news figure img{width:100% !important;height:auto !important}
 #portada_espectaculos.view_3 .news:first-child{margin-left:0 !important}
 #portada_espectaculos.view_3 .news:nth-child(3n+1){margin-left:0 !important}
+#portada_espectaculos.view_3 .news:nth-child(even){margin-left:0 !important}
 #portada_espectaculos.view_3 .news .desc{width:300px !important}
 #portada_espectaculos.view_3 .news .opt{width:300px !important;}
 #portada_espectaculos.view_3 .news .opt .e1{width:122px !important}

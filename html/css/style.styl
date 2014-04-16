@@ -1770,6 +1770,10 @@ footer
 		display inline-block
 		vertical-align top
 		font-size 1rem
+		&.subseccion_modular_listado
+		&.subseccion_modular
+			margin-left 22px
+			margin-right 9px
 		.add
 			height 290px
 			padding 20px 0
@@ -1867,6 +1871,10 @@ footer
 		display inline-block
 		vertical-align top
 		font-size 1rem
+		&.subseccion_modular
+			margin-left 20px
+		&.subseccion_modular_listado
+			margin-left 11px
 		.news
 			box-shadow()
 			float left
@@ -2014,6 +2022,7 @@ footer
 		padding 9px 15px 0 0 
 		text-align right
 		margin-bottom -35px
+		margin-top 10px
 		ul
 			font-size 0
 			li 
@@ -2507,6 +2516,10 @@ footer
 		.left_column
 			width 768px
 			margin 0
+		.left2_column
+			margin 0
+			.monster_box
+				display none
 		.opt 
 			ul 
 				.e1
@@ -2531,19 +2544,31 @@ footer
 			display none
 
 		.features
-			width 750px
-			.mas_visto 
+			width 750px!important
+			margin-right 9px
+			&.subseccion_modular
+				margin-left 9px
+			&.subseccion_modular_listado
+				margin-left 9px
+			.mas_visto 				
+				width 750px!important
+				margin-bottom 20px
+				.tab
+					background-position 706px -639px
 				.list 
 					.item
-						width 100%
+						width 750px!important
 						.des
 							width 83%
+							text-align left
 
 		.plugin_fb
 			display none
 		.more_news_v2
 			width 768px
 			text-align center
+			&.subseccion_modular_listado
+				margin-left 0
 			.news
 				width 700px
 				display inline-block
@@ -2583,6 +2608,8 @@ footer
 					margin-left 0!important
 				&:nth-child(3n+1)
 					margin-left 0!important
+				&:nth-child(even)
+					margin-left 50px!important
 				.desc
 					width 300px!important
 				.opt 
@@ -2597,17 +2624,22 @@ footer
 
 	.view_3 
 		.plugin_fb
-			display none!important
+			width 300px!important
+			overflow hidden
+				
 		.portada_destacado 
 			.desc
-				width 495px!important
-		.more_news
+				width 495px!important		
+		.features
+			text-align center
 		.more_news_v2
-			.news
-				margin-left 0!important
-				&.nth-child(3n+1)
+			.news				
+				&:nth-child(3n+1)
+				&:nth-child(2n+1)
 				&:first-child
-					margin-left 20!important
+					margin 0!important
+				&:nth-child(even)
+					margin 50px!important
 
 
 @media screen and (max-width:480px)
@@ -2731,11 +2763,17 @@ footer
 				&:nth-child(3n+1)
 					margin-left 0
 		.features
-			width 300px
-			.list
-				.item
-					.des
-						width 165px!important
+			width 300px!important
+			text-align left
+			.tab
+				background-position 256px -639px!important
+			.mas_visto
+				width 300px!important
+				.list
+					.item
+						width 300px!important
+						.des
+							width 165px!important
 
 		.more_news_v2
 			width 320px
@@ -2775,9 +2813,11 @@ footer
 					width 300px
 					height auto
 				.desc
-					width 320px
+					width 300px!important
 					height auto
-
+			.features
+				width 300px!important
+				margin 20px 10px 0
 			.mas_visto
 				width 300px!important
 				margin-bottom 20px
@@ -2803,6 +2843,8 @@ footer
 				&:first-child
 					margin-left 0!important
 				&:nth-child(3n+1)
+					margin-left 0!important
+				&:nth-child(even)
 					margin-left 0!important
 				.desc
 					width 300px!important
