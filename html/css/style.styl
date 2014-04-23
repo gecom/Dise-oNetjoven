@@ -2048,6 +2048,196 @@ footer
 					text-decoration none
 
 
+#notes 
+	width 960px
+	background #fff
+	padding-top 15px
+	font-size 0
+.left_notes
+	width 300px
+	display inline-block
+	vertical-align top
+	margin 0 26px 0 9px
+	font-size 1rem
+	.monster_box
+		width 300px
+		height 618px
+		box-shadow()		
+		padding 9px 0
+		margin-bottom 15px
+	.add
+		width 300px
+		height 290px
+		padding 20px 0
+		box-shadow()
+		margin-bottom 15px
+
+		img
+			width 100%
+			height auto
+
+	.mas_visto
+		box-shadow()
+		.tab
+			height 26px
+			font-size 1.3em
+			padding-left 11px
+			background #e3e3e3 url('../images/sprite.png') 256px -639px no-repeat
+		.list 
+			.item
+				padding 7px 0 7px 11px
+				width 300px
+				font-size 0
+				border-bottom 1px solid #d9d9d9
+				figure
+					vertical-align top
+					display inline-block
+					font-size 1rem
+					img
+						width 120px
+						height 74px
+				.des
+					width 162px 
+					vertical-align top
+					display inline-block
+					font-size 1rem
+					padding-left 7px
+					height 74px
+				&:nth-child(even)
+					background-color #f1f1f1
+
+		.pagine
+			height 49px 
+			text-align center
+
+	.plugin_fb
+		width 300px
+		box-shadow()
+		margin 15px 0
+	#ads
+		width 300px
+		border 0
+		padding 0
+		.item
+			width 140px
+			margin-left 20px
+			margin-bottom 20px
+			&:nth-child(odd)
+				margin-left 0
+
+.right_notes
+	width 600px
+	display inline-block
+	vertical-align top
+	font-size 1rem
+	.group_title
+		font-size 2.8em
+		line-height 30px
+	.title_nota
+		font-size 1.9em
+		margin-top 5px
+	.image 
+		.opt
+			height 27px
+			background-color #e2e2e2
+			width 100%
+			padding 0 10px
+			text-align left
+			margin-top 30px
+			
+			ul
+				font-size 0
+				li 
+					display inline-block
+					vertical-align top
+					font-size 0.8rem
+
+					a 
+						color #6D6D6D
+				.e1
+					width 274px
+					padding-top 8px
+				.e2 a, .e4 a
+					width 28px
+					height 20px
+					background url('../images/sprite.png') 0 -191px
+					display block
+					margin-top 4px
+				.e4 a
+					background-position -41px -191px
+				.e3
+					padding 8px 20px 0 0
+					background url('../images/sprite.png') 261px -217px
+					width 276px
+					text-align right
+					background-repeat no-repeat
+		.gallery
+			position relative
+			a 
+				position absolute
+				width 38px
+				height 38px
+				display block
+				border-radius(19px)
+				background url('../images/sprite.png')
+				top 50%
+				margin-top -19px
+				opacity(0.7)
+				&.next
+					background-position -200px -637px
+					left 0
+				&.prev
+					background-position -157px -637px
+					right 0
+		figure 
+			width 600px
+			img
+				width 100%
+				height auto
+	.text_note
+		font-size 1.13em
+		margin-top 15px
+	.author
+		font-size 0.88em
+		text-align center
+		margin-top 25px
+		span 
+			height 8px
+			width 8px
+			border-radius(4px)
+			display inline-block
+			margin-right 7px
+			margin-top 2px
+
+	.social
+		text-align center
+		padding 15px 0
+		border-top 1px solid #d9d9d9
+		border-bottom 1px solid #d9d9d9
+	.tags
+		font-size 0.88em
+		text-align center
+		padding 5px 0 22px		
+		span 
+			font-size 1.14em
+			font-weight 700
+	.action
+		text-align center
+		.btn_volver
+			text-align center
+			margin 0 auto
+			padding 0 18px
+			font-size 1.2em
+			color #fff
+			display inline-block
+			border-radius(12px)
+			text-decoration none
+
+
+		
+
+
+		
 
 
 @media screen and (max-width:1000px)
@@ -2641,6 +2831,60 @@ footer
 				&:nth-child(even)
 					margin 50px!important
 
+	#notes 
+		width 690px
+		overflow hidden
+		margin 0 auto 14px
+		.add
+		#ads
+		.plugin_fb
+		.monster_box
+			display none
+		.left_notes
+			width 690px
+		.mas_visto
+			.tab
+					background-position 529px -734px
+		.right_notes
+			width 690px	
+			padding-bottom 10px		
+			figure
+				width 690px
+			.text_note
+				padding-left  10px
+				padding-right 10px
+
+				padding-bottom 10px
+			.group_title
+			.title_nota
+				padding-left 10px
+				padding-right 10px
+			.image 
+				.opt 
+					ul 
+						.e1
+							width 317px
+						.e3
+							width 322px
+							background-position 306px -217px
+
+		.mas_visto
+			width 600px
+			margin 0 auto
+			margin-top 40px
+			margin-bottom 20px
+			.list
+				overflow hidden
+				.item
+					float left
+					&:nth-child(even)
+						border-left 1px solid #d9d9d9
+						background none
+					&.bg_class
+						background-color #f1f1f1
+
+		
+
 
 @media screen and (max-width:480px)
 
@@ -2685,7 +2929,6 @@ footer
 
 		img
 			width 100%
-			height 250px
 
 	#ads
 		width 320px
@@ -2857,3 +3100,34 @@ footer
 					.e3
 						background-position 111px -217px
 						width 126px!important
+
+	#notes 
+		width 320px
+		.right_notes
+			width 320px
+			figure 
+				width 320px
+			.image 
+				.opt 
+					ul 
+						.e1
+							width 136px
+						.e3
+							width 134px
+							background-position 119px -217px
+		.left_notes
+			width 320px
+			margin 0
+		.mas_visto
+			width 300px	
+			.tab
+				background-position 228px -734px		
+			.list
+				
+				.item
+					float left
+					&:nth-child(even)
+						border-left 1px solid #d9d9d9
+						background none
+					&.bg_class
+						background-color #f1f1f1
