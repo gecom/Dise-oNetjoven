@@ -2053,6 +2053,7 @@ footer
 	background #fff
 	padding-top 15px
 	font-size 0
+	overflow hidden
 .left_notes
 	width 300px
 	display inline-block
@@ -2130,6 +2131,8 @@ footer
 	display inline-block
 	vertical-align top
 	font-size 1rem
+	float right
+	margin-right 25px
 	.group_title
 		font-size 2.8em
 		line-height 30px
@@ -2232,9 +2235,269 @@ footer
 			display inline-block
 			border-radius(12px)
 			text-decoration none
+	.buscar_otro
+		border-bottom 1px solid #d9d9d9
+		padding-bottom 6px
+		.tit 
+			font-size 2em
+			text-align center
+		.box_form
+			background-color #ececec
+			height 40px
+			border-bottom 1px solid #bababa
+			select
+				display inline-block
+				margin-left 50px
+				margin-right 142px
+				height 28px
+				width 162px
+				border 1px solid #a5a5a5
+				vertical-align top
+				margin-top 5px
+			.box_search
+				display inline-block
+				background #bdbdbd
+				width 213px
+				height 26px
+				border-radius(13px)	
+				vertical-align top
+				margin-top 6px	
+				.ipt 
+					background none
+					border 0
+					height 20px
+					padding-left 20px
+					width 172px
+					margin-left 5px
+				.btn 
+					background url('../images/sprite.png') -1px -146px
+					height 26px
 
 
-		
+
+
+#horoscopo_resultados 
+	width 960px
+	background #fff
+	font-size 0	
+	overflow hidden
+	.big_title
+		height 50px
+		border-bottom 1px solid #d8d8d8
+		margin-bottom 10px
+		text-align center
+		line-height 50px
+		font-size 2.4rem
+	.paginate
+		border-top 1px solid #d8d8d8
+		height 40px
+		padding 9px 15px 0 0 
+		text-align right
+		margin-top 10px
+		width 100%
+		float left
+		ul
+			font-size 0
+			li 
+				display inline-block
+				width 16px
+				height 16px
+				border-radius(8px)
+				text-align center
+				line-height 15px
+				font-size 1rem
+				margin-left 2px
+
+				a 
+					font-size 0.9em
+					display inline-block
+					color #6d6d6d
+					line-height auto
+									
+			li:hover, .active			
+
+				a
+					color #fff
+					text-decoration none
+			
+	.right_horoscopo
+		width 600px
+		display inline-block
+		vertical-align top
+		font-size 1rem
+		float right
+		margin-right 24px			
+		.list_articles		 
+			font-size 0
+			padding-bottom 10px			
+			padding-top 10px
+			article
+				width 600px
+				display inline-block
+				vertical-align top		
+				box-shadow()
+				margin 0 0 20px 0
+				font-size 1rem
+				
+				.add_in_news 
+					width 406px
+					height 250px
+					background-color #333
+					margin 20px 0
+
+				.media 
+					height 120px
+					width 194px
+					float left
+					position relative
+					overflow hidden
+
+					img
+						width 100%
+						height auto
+
+					.play_video
+						background-image url('../images/sprite.png') 
+						background-position -71px -180px
+						background-repeat no-repeat
+						width 38px
+						height 38px
+						display block
+						position absolute
+						top 50%
+						left 50%
+						margin-left -19px
+						margin-top -19px
+						border-radius(19px)
+						opacity(0.8)
+						box-shadow()
+						z-index 10
+
+					.exclusive_label
+						width 140px
+						height 140px
+						border-radius (70px)	
+						position absolute	
+						box-shadow()
+						color #fff
+						font-size 1.1em
+						top -109px 
+						left -9px
+						padding 109px 0 0 39px
+						opacity(0.7)
+
+				.text 
+					height 93px 
+					font-size 1.3em
+					line-height 1.35em
+					padding 10px 10px 5px
+					width 406px
+					float left
+				.opt
+					height 27px
+					background-color #e2e2e2
+					width 406px
+					padding 0 10px
+					float left
+					ul
+						font-size 0
+						li 
+							display inline-block
+							vertical-align top
+							font-size 0.8rem
+
+							a 
+								color #6D6D6D
+						.e1
+							width 180px
+							padding-top 8px
+						.e2 a, .e4 a
+							width 28px
+							height 20px
+							background url('../images/sprite.png') 0 -191px
+							display block
+							margin-top 4px
+						.e4 a
+							background-position -41px -191px
+						.e3
+							padding 8px 20px 0 0
+							background url('../images/sprite.png') 160px -216px
+							width 175px
+							text-align right
+							background-repeat no-repeat
+
+				
+	.left_horoscopo
+		width 300px
+		display inline-block
+		vertical-align top
+		margin 0 26px 0 10px
+		font-size 1rem
+		.monster_box
+			width 300px
+			height 618px
+			box-shadow()		
+			padding 9px 0
+			margin-bottom 15px
+		.add
+			width 300px
+			height 290px
+			padding 20px 0
+			box-shadow()
+			margin-bottom 15px
+
+			img
+				width 100%
+				height auto
+
+		.mas_visto
+			box-shadow()
+			.tab
+				height 26px
+				font-size 1.3em
+				padding-left 11px
+				background #e3e3e3 url('../images/sprite.png') 256px -639px no-repeat
+			.list 
+				.item
+					padding 7px 0 7px 11px
+					width 300px
+					font-size 0
+					border-bottom 1px solid #d9d9d9
+					figure
+						vertical-align top
+						display inline-block
+						font-size 1rem
+						img
+							width 120px
+							height 74px
+					.des
+						width 162px 
+						vertical-align top
+						display inline-block
+						font-size 1rem
+						padding-left 7px
+						height 74px
+					&:nth-child(even)
+						background-color #f1f1f1
+
+			.pagine
+				height 49px 
+				text-align center
+
+		.plugin_fb
+			width 300px
+			box-shadow()
+			margin 15px 0
+		#ads
+			width 300px
+			border 0
+			padding 0
+			.item
+				width 140px
+				margin-left 20px
+				margin-bottom 20px
+				&:nth-child(odd)
+					margin-left 0
 
 
 		
@@ -2830,6 +3093,7 @@ footer
 					margin 0!important
 				&:nth-child(even)
 					margin 50px!important
+	
 
 	#notes 
 		width 690px
@@ -2847,7 +3111,9 @@ footer
 					background-position 529px -734px
 		.right_notes
 			width 690px	
-			padding-bottom 10px		
+			padding-bottom 10px	
+			float none	
+			
 			figure
 				width 690px
 			.text_note
@@ -2883,7 +3149,65 @@ footer
 					&.bg_class
 						background-color #f1f1f1
 
-		
+	#horoscopo_resultados 
+		width 690px
+		overflow hidden
+		margin 0 auto 14px
+		.add
+		#ads
+		.plugin_fb
+		.monster_box
+			display none
+		.left_horoscopo
+			width 690px
+			.mas_visto
+				.tab
+						background-position 529px -734px
+		.right_horoscopo
+			width 690px	
+			padding-bottom 10px	
+			float none	
+			text-align center
+			article
+				text-align left			
+				figure
+					width 690px
+				.text_note
+					padding-left  10px
+					padding-right 10px
+					text-align left
+					padding-bottom 10px
+				
+				.group_title
+				.title_nota
+					padding-left 10px
+					padding-right 10px
+				.image 
+					.opt 
+						ul 
+							.e1
+								width 317px
+							.e3
+								width 322px
+								background-position 306px -217px
+
+		.mas_visto
+			width 600px
+			margin 0 auto
+			margin-top 40px
+			margin-bottom 20px
+	
+			.list
+				overflow hidden
+				.item
+					float left
+					&:nth-child(even)
+						border-left 1px solid #d9d9d9
+						background none
+					&.bg_class
+						background-color #f1f1f1
+
+	
 
 
 @media screen and (max-width:480px)
@@ -3105,6 +3429,8 @@ footer
 		width 320px
 		.right_notes
 			width 320px
+			.buscar_otro
+				display none
 			figure 
 				width 320px
 			.image 
@@ -3116,6 +3442,44 @@ footer
 							width 134px
 							background-position 119px -217px
 		.left_notes
+			width 320px
+			margin 0
+		.mas_visto
+			width 300px	
+			.tab
+				background-position 228px -734px		
+			.list
+				
+				.item
+					float left
+					&:nth-child(even)
+						border-left 1px solid #d9d9d9
+						background none
+					&.bg_class
+						background-color #f1f1f1
+
+	#horoscopo_resultados 
+		width 320px
+		.right_horoscopo
+			width 320px
+			.buscar_otro
+				display none
+			.list_articles
+				article
+					width 320px
+					.media
+						width 320px
+						height auto	
+					.text 
+						width 320px					
+					.opt 
+						ul 
+							.e1
+								width 136px
+							.e3
+								width 134px
+								background-position 119px -217px
+		.left_horoscopo
 			width 320px
 			margin 0
 		.mas_visto
