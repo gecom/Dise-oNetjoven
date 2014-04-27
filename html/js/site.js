@@ -1,3 +1,14 @@
+$(function(){
+	$('.bxslider').bxSlider({
+		mode: 'fade',
+		captions: true,
+		auto : true,
+		hideControlOnEnd : false
+	});
+	
+	console.log($('.bxslider'))
+
+})
 
 
 
