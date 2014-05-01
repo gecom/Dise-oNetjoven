@@ -431,11 +431,6 @@ header
 						line-height: 18px;
 
 
-
-
-
-
-
 .destacado
 	padding 10px 10px 40px 10px
 	background #fff
@@ -494,11 +489,26 @@ header
 .bx-wrapper .bx-pager.bx-default-pager a
 	margin -15px 4px 0!important
 	float left
+	box-shadow()
 .bx-wrapper .bx-pager.bx-default-pager a:hover, .bx-wrapper .bx-pager.bx-default-pager a.active
 	width 20px!important
 	height 20px!important
 	border-radius(10px)
 	margin 0 4px!important
+.bx-wrapper .bx-pager.bx-default-pager .bx-pager-item:nth-child(1) a
+	background-color #cd9318
+.bx-wrapper .bx-pager.bx-default-pager .bx-pager-item:nth-child(2) a
+	background-color #a1b33d
+.bx-wrapper .bx-pager.bx-default-pager .bx-pager-item:nth-child(3) a
+	background-color #1175b3
+.bx-wrapper .bx-pager.bx-default-pager .bx-pager-item:nth-child(4) a
+	background-color #a14181
+.bx-wrapper .bx-pager.bx-default-pager .bx-pager-item:nth-child(5) a
+	background-color #d44b41
+.bx-wrapper .bx-viewport
+	box-shadow none!important
+	-moz-box-shadow none!important
+	-webkit-box-shadow none!important
 
 #banner
 	padding 10px 10px 40px 10px
@@ -790,6 +800,38 @@ header
 		display inline-block
 		vertical-align top
 		font-size 1rem
+		.video_animation
+			.bxslider_video
+				margin-left 42px
+				li 
+					img
+						box-shadow()
+				li:nth-child(1) img
+					border-bottom 4px solid #cd9318
+				li:nth-child(2) img
+					border-bottom 4px solid #a1b33d
+				li:nth-child(3) img
+					border-bottom 4px solid #1175b3
+				li:nth-child(4) img
+					border-bottom 4px solid #a14181
+				li:nth-child(5) img
+					border-bottom 4px solid #d44b41
+			.bx-wrapper 
+				.bx-pager
+					padding-top 10px!important
+					border-top 1px solid #e1e1e1!important
+					bottom -100px
+				.bx-viewport
+					overflow visible!important
+				.bx-caption
+					bottom 0px!important
+					top 312px!important
+					width 520px!important
+					span
+						color #6b6b6b
+						font-size 1.4em!important	
+						padding 0!important
+						line-height 3em!important
 
 		.video_paginate
 			text-align center

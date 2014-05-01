@@ -1,5 +1,5 @@
 $(function(){
-	$('.bxslider').bxSlider({
+	$('.bxslider, .bxslider_video').bxSlider({
 		mode: 'fade',
 		captions: true,
 		auto : true,
