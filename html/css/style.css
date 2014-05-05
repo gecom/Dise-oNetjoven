@@ -259,6 +259,17 @@ footer .footer_devices .fd2{background:url("../images/sprite.png") -144px -188px
 #popup_login .options_login .change a.v3:hover{background-position:-144px -509px}
 #popup_login .options_login .change a.v2{margin-right:6px;background-position:-176px -509px;}
 #popup_login .options_login .change a.v2:hover{background-position:-113px -509px}
+#popup_login .show_login{background-color: #3A3A3A;border-radius: 10px;overflow: hidden;width: 321px;}
+#popup_login .show_login .welcome{min-height:51px;height:auto;padding-top:4px}
+#popup_login .show_login .welcome{  color: #8C8C8C;height: 40px;line-height: 40px;padding: 0 0 0 14px;text-align: left;}
+#popup_login .show_login .welcome span{background: none repeat scroll 0 0 rgba(0, 0, 0, 0);color: #CFCFCF;width: 100%;}
+#popup_login .show_login .welcome span.user_icon{background: url("../images/sprite.png") repeat scroll -96px -817px rgba(0, 0, 0, 0);display: block;float: right;height: 40px;margin-right: 180px;margin-top: 5px;width:40px;	}
+#popup_login .show_login  .iniciar_sesion, #popup_login .show_login  .registro_form {display: inline-block;float:left;font-size:0.9em;text-align: center;width: 100%;}
+#popup_login .show_login  .login_input{width:189px;height:22px;margin-top:12px;padding:0;padding-left:5px;line-height:1em}
+#popup_login .show_login  .btn_login{width:80px;color:#fff;display:block;text-align:left;background:url("../images/sprite.png") -155px -780px;border:none;height:27px;padding:0;line-height:1em;margin-left:167px;margin-top:12px}
+#popup_login .show_login  .lnk1{ color: #8C8C8C;display: inline-block;height: 25px;margin-top: 5px;width: 100%;}
+#popup_login .show_login  .registrate{background: none repeat scroll 0 0 #353535;height: 60px;line-height: 25px;}
+#popup_login .show_login .registrate .registrate_btn{display:initial;color:#fff;padding:4px 10px;width:auto;background:#ee8435;float:none;width:110px;text-decoration:none}
 #popup_usuario_no_registrado{padding:19px;position:relative;width:364px;}
 #popup_usuario_no_registrado .message{-webkit-border-radius:10px;-moz-border-radius:10px;border-radius:10px;border:1px solid #e1e1e1;background:#fff;width:326px;text-align:center;padding-top:10px;overflow:hidden;}
 #popup_usuario_no_registrado .message .no_user{display:inline-block;width:41px;height:41px;background:url("../images/sprite.png") -189px -291px no-repeat}
