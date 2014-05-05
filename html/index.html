@@ -4,6 +4,7 @@
 	<meta charset="UTF-8">
 	<title>Index</title>
 	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
+	<link rel="shortcut icon" type="image/x-icon" href="images/favicon.ico" />
 	<link rel="stylesheet" href="css/bootstrap.min.css">
 	<link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300,700' rel='stylesheet' type='text/css'>	
 	<link rel="stylesheet" href="css/style.css">
@@ -467,6 +468,7 @@
 									</ul>
 								<div class="search_box">
 									<input type="text" value="Buscar...">
+									<input type="button" class="btn_search" value="">
 									<div class="bg_search"></div>
 								</div>
 								<div class="circles" style="display:none"></div>
@@ -474,7 +476,38 @@
 								<a href="#" class="config"></a>
 								<div class="showing_config" style=" display:none">
 									<div class="welcome">
-										Bienvenido Luis Walters
+										<div class="bien">Bienvenido Luis Walters</div>
+										<a href="#" class="log_in_mobile"  >Iniciar Sesión</a>
+										<span class="user_icon" ></span>
+										<div class="iniciar_sesion" style="display:none">
+											<input type="text" value="Usuario" class="login_input"><br/>
+											<input type="text" value="Contraseña" class="login_input"><br/>
+											<input type="button" class="btn_login" value="Entrar">
+											<a href="#" class="lnk1">Olvidaste tu Contraseña?</a>
+											<div class="registrate">
+												Eres nuevo en Netjoven?<br/>
+												<a href="#" class="registrate_btn">Regístrate</a>
+											</div>
+										</div>
+										<div class="registro_form" style="display:none">
+											Regístrate con Netjoven<br/>
+											<input type="text" value="Nombre" class="login_input"><br/>
+											<input type="text" value="Apellidos" class="login_input"><br/>
+											<input type="text" value="Correo Electrónico" class="login_input"><br/>
+											<input type="text" value="Contraseña" class="login_input"><br/>
+											<input type="text" value="Repetir Contraseña" class="login_input"><br/>
+											<select class="sel1" name="" id=""><option>Día</option></select>
+											<select  class="sel1"name="" id=""><option>Mes</option></select>
+											<select class="sel1" name="" id=""><option>Año</option></select><br/>
+											<select class="sel2" name="" id=""><option>Sexo</option></select><br/>
+											<a href="#" class="finalizar_btn">Finalizar</a>
+											<div class="redes_sociales">
+												Registro con Redes<br/>
+												<a href="#" class="fb"></a>
+												<a href="#" class="tw"></a>
+												<a href="#" class="gp"></a>
+											</div>
+										</div>
 									</div>
 									<div class="pick_color">
 										<span class="t1">Diseña tu interfaz</span>
@@ -516,6 +549,9 @@
 										<a href="#" class="v3"></a>
 										<a href="#" class="v2"></a>
 										
+									</div>
+									<div class="cerrar_sesion" style="display:none">
+										<a href="#">Cerrar sesión</a>
 									</div>
 
 								</div>
@@ -607,73 +643,61 @@
 			</ul>
 			<div class="list_articles">
 				<article >
-					<div class="media"><img src="images/maq/nota1.jpg" /></div>
-					<div class="text">Peoples Choice 2014: The Walking Dead vence como Drama de TV Favorito</div>
+					<div class="media"><a href="#"><img src="images/maq/nota1.jpg" /></a></div>
+					<div class="text"><a href="#">Peoples Choice 2014: The Walking Dead vence como Drama de TV Favorito</a></div>
 					<div class="opt">
-						<ul>
-							<li class="e1"><a href="#">+Espectáculos</a></li>
-							<li class="e2"><a href="#"></a></li>
-							<li class="e3">Hace 10 min.</li>
-						</ul>
+						<div class="opt1"><a href="#">+Espectáculos</a></div>
+						<div class="opt2"></div>
+						<div class="opt3">Hace 10 min.</div>						
 					</div>
 				</article>
 				<article >
-					<div class="media"><img src="images/maq/nota2.jpg" /></div>
-					<div class="text">PSY graba canción con Steven Tyler</div>
+					<div class="media"><a href="#"><img src="images/maq/nota2.jpg" /></a></div>
+					<div class="text"><a href="#">PSY graba canción con Steven Tyler</a></div>
 					<div class="opt">
-						<ul>
-							<li class="e1"><a href="#">+K-pop</a></li>
-							<li class="e2"><a href="#"></a></li>
-							<li class="e3">Hace 10 min.</li>
-						</ul>
+						<div class="opt1"><a href="#">+Espectáculos</a></div>
+						<div class="opt2"></div>
+						<div class="opt3">Hace 10 min.</div>
 					</div>
 				</article>
 				<article >
 					<div class="media">						
-						<div class="exclusive_label custom_color_bg">Exclusivo</div><img src="images/maq/nota3.jpg" />
+						<div class="exclusive_label custom_color_bg">Exclusivo</div><a href="#"><img src="images/maq/nota3.jpg" /></a>
 					</div>
-					<div class="text">Justin Bieber y Selena Gomez disfrutaron un romántico camping</div>
+					<div class="text"><a href="#">Justin Bieber y Selena Gomez disfrutaron un romántico camping</a></div>
 					<div class="opt">
-						<ul>
-							<li class="e1"><a href="#">+Espectáculos</a></li>
-							<li class="e2"><a href="#"></a></li>
-							<li class="e3">Hace 10 min.</li>
-						</ul>
+						<div class="opt1"><a href="#">+Espectáculos</a></div>
+						<div class="opt4"></div>
+						<div class="opt3">Hace 10 min.</div>
 					</div>
 				</article>
 				<article >
-					<div class="media"><img src="images/maq/nota4.jpg" /></div>
-					<div class="text">Arquero de Bayern Munich fue el mejor del 2013 según la IFFHS</div>
+					<div class="media"><a href="#"><img src="images/maq/nota4.jpg" /></a></div>
+					<div class="text"><a href="#">Arquero de Bayern Munich fue el mejor del 2013 según la IFFHS</a></div>
 					<div class="opt">
-						<ul>
-							<li class="e1"><a href="#">+Deportes</a></li>
-							<li class="e2"><a href="#"></a></li>
-							<li class="e3">Hace 10 min.</li>
-						</ul>
+						<div class="opt1"><a href="#">+Espectáculos</a></div>
+						<div class="opt2"></div>
+						<div class="opt3">Hace 10 min.</div>
 					</div>
 				</article>
 				<article >
 					<div class="media">
-						<a class="play_video custom_color_bg" href="#"></a><img src="images/maq/nota5.jpg" />
+						<a class="play_video custom_color_bg" href="#"></a><a href="#"><img src="images/maq/nota5.jpg" /></a>
 					</div>
-					<div class="text">Real Madrid vs Osasuna: En vivo 3:30 p.m. por DirecTV Copa del Rey Fotos</div>
+					<div class="text"><a href="#">Real Madrid vs Osasuna: En vivo 3:30 p.m. por DirecTV Copa del Rey Fotos</a></div>
 					<div class="opt">
-						<ul>
-							<li class="e1"><a href="#">+Deportes</a></li>
-							<li class="e4"><a href="#"></a></li>
-							<li class="e3">Hace 10 min.</li>
-						</ul>
+						<div class="opt1"><a href="#">+Espectáculos</a></div>
+						<div class="opt2"></div>
+						<div class="opt3">Hace 10 min.</div>
 					</div>
 				</article>
 				<article >
-					<div class="media"><img src="images/maq/nota6.jpg" /></div>
-					<div class="text">Miley Cyrus se divierte junto a Snoop Dogg - Fotos</div>
+					<div class="media"><a href="#"><img src="images/maq/nota6.jpg" /></a></div>
+					<div class="text"><a href="#">Miley Cyrus se divierte junto a Snoop Dogg - Fotos</a></div>
 					<div class="opt">
-						<ul>
-							<li class="e1"><a href="#">+Espectáculos</a></li>
-							<li class="e4"><a href="#"></a></li>
-							<li class="e3">Hace 10 min.</li>
-						</ul>
+						<div class="opt1"><a href="#">+Espectáculos</a></div>
+						<div class="opt4"></div>
+						<div class="opt3">Hace 10 min.</div>
 					</div>
 				</article>
 			</div>
@@ -746,7 +770,7 @@
 
 		<section id="ads">
 			<article class="item">
-				<div class="add_title">Facebook Fail</div>
+				<div class="add_title">Fail en redes</div>
 				<div class="add_content">
 					<figure>
 						<img src="images/maq/add1.jpg" alt="">
@@ -831,7 +855,13 @@
 Fifa  /  Guardaespaldas,  /   Justin Bieber En Buenos Aires  /  Fifa  /  Guardaespaldas 
 			</div>
 			<div class="sponsors">
-				<img src="images/sponsors.jpg">
+				<ul>
+					<li ><a class="sp1" href="#"></a></li>
+					<li ><a class="sp2" href="#"></a></li>
+					<li ><a class="sp3" href="#"></a></li>
+					<li ><a class="sp4" href="#"></a></li>
+					<li ><a class="sp5" href="#"></a></li>
+				</ul>
 			</div>
 			<div class="footer_rights">
 				©Copyright Grupo Emprendedor de Comunicaciones. Derechos Reservados: Prohibida su reproducción sin autorización. / Calle Arica 115 oficina 504

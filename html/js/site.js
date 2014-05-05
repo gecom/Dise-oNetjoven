@@ -102,5 +102,17 @@ $(document).scroll(function() {
 
 })
 
+$(".log_in_mobile").on('click', function(e){
+
+	e.preventDefault();
+	$(this).parent().addClass('log_in');
+	$('.welcome .iniciar_sesion').show();
+})
+$(".registrate_btn").on('click', function(e){
+	$('.welcome .iniciar_sesion').hide();
+	$('.log_in_mobile').hide();
+	$('.welcome .registro_form').show();
+})
+
 
 
