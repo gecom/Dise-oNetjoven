@@ -1,7 +1,6 @@
 color_lila = #9F4180
 box_shadow = 1px 1px 4px 0 #6d6d6d
-box_shadow_inset = inset 0px 7px 5px -6px #404040
-
+box_shadow_inset = inset 0px 7px 5px -6px #4040
 border-radius(n)
   -webkit-border-radius n
   -moz-border-radius n
@@ -202,11 +201,14 @@ header
 	background url('../images/sprite_fondos.png') repeat-x
 	text-align right
 	position relative
+	.row
+		margin-left 0
 
 	.menu
 		margin-right 11px
 		font-size 0
 		position relative
+		box-shadow()
 
 		.li_menu 
 			margin-left 4px
@@ -1879,6 +1881,7 @@ footer
 				font-size 1.3em
 				padding-left 11px
 				background #e3e3e3 
+				text-align left!important
 				
 			.list 
 				.item
@@ -2297,6 +2300,7 @@ footer
 						padding-left 20px
 						width 172px
 						margin-left 5px
+						outline none
 					.btn 
 						background url('../images/sprite.png') -1px -146px
 						height 26px
@@ -2335,7 +2339,7 @@ footer
 					border 1px solid #bdbdbd
 					border-top 1px solid #e5e5e5
 					margin 0 -1px 
-					border-radius(3px)
+					/*border-radius(3px)*/
 					ul
 						
 						li
@@ -2382,6 +2386,7 @@ footer
 						height 45px
 						font-size 1rem
 						padding-top 8px
+						position relative
 						select
 							width 181px
 							height 27px
@@ -2398,6 +2403,34 @@ footer
 								background color_lila
 								color #fff
 								line-height 16px
+						.pestanas
+							position absolute
+							height 20px
+							background #fff
+							border 1px solid #aeaeae
+							border-top none
+							right -8px
+							top 0
+							.p1
+								float left
+								margin 0 6px
+								.p2 
+									display block
+									font-size 1rem
+									width auto
+									height auto
+									border-radius(0)
+									padding 0 6px
+									line-height 18px
+									&:hover
+										height 23px
+										-webkit-border-bottom-left-radius: 5px;
+										-webkit-border-bottom-right-radius: 5px;
+										-moz-border-radius-bottomleft: 5px;
+										-moz-border-radius-bottomright: 5px;
+										border-bottom-left-radius: 5px;
+										border-bottom-right-radius: 5px;
+
 
 					article
 						width 600px
@@ -2740,60 +2773,20 @@ footer
 			display none
 	#main_nav
 		width 768px
-
-		&.menu_fixed
-			
-			.options_menu_fixed
-			.menu
-				display none!important
-			
-			.search_box
-				display none
-				position absolute!important
-				top 25px
-				right 34px
-				background-color #3a3a3a
-				width 248px!important
-				height 35px!important
-				-webkit-border-bottom-right-radius: 10px;
-				-webkit-border-bottom-left-radius: 10px;
-				-moz-border-radius-bottomright: 10px;
-				-moz-border-radius-bottomleft: 10px;
-				border-bottom-right-radius: 10px;
-				border-bottom-left-radius: 10px;
-
-				.bg_search
-					top 7px!important
-				input
-					margin-top 4px!important
-
-
-			.circles
-				display block!important
-				float left
-				width 666px
-				background url('../images/sprite.png') center -598px no-repeat
-				height 24px
-			.search
-				display block!important
-				float left
-				background-position -4px -377px!important
-				&.active 
-					background-color #3a3a3a
-
-			
+		
 		.menu_desktop
 			display none
 		.menu_responsive
 			display block!important	
 
 			.menu						
-				margin-left 10px
+				padding-left 10px
+				margin-left 0
 				text-align left
 			.options 
-				height 25px
+				height 36px
 				background-color #5d5d5d
-				margin 0 10px
+				margin 0 10px 0 0
 				position relative
 				
 				.showing_config
@@ -2953,7 +2946,7 @@ footer
 					left 0
 					width 100%
 					z-index 900
-					padding-top 20px
+					padding-top 0
 					-webkit-border-bottom-right-radius: 10px;
 					-webkit-border-bottom-left-radius: 10px;
 					-moz-border-radius-bottomright: 10px;
@@ -2967,7 +2960,7 @@ footer
 						line-height 24px
 						background-color #353535
 						border-top 1px solid #3d3d3d
-						height 24px
+						height 32px
 
 						&:last-child
 							height 43px
@@ -3011,26 +3004,206 @@ footer
 							background-repeat no-repeat
 							background-position right -568px
 
-				
+				.showing_menu
+					padding-top 0
+					.opt_menu
+						height 32px						
+						a 
+							height 30px
+							font-size 1.3em
+							background-position 737px -781px
+						&:last-child
+							font-size 1.3em
+							height 62px
+							padding-top 5px
+							a 
+								width 40px
+								height 41px
+								&.gp
+									display none
+								&.tw
+									background-position -50px -818px
+									&:hover
+										background-position -50px -818px
+								&.fb
+									background-position -2px -818px
+									&:hover
+										background-position -2px -818px
+
+				.showing_config
+				.showing_menu
+					top 36px
+				.showing_config
+					.pick_color
+					.share
+					.change
+						display none
+						background #333
+						padding-bottom 10px
+						overflow hidden
+						height 107px
+						span
+							font-size 1.4em
+						a 
+							float none
+					.cerrar_sesion
+						padding 10px 0
+						a 
+							float right
+							margin-right 10px
+							text-decoration none
+							width: 100%;
+							background: none;
+							font-size: 1.2em;
+							color #cfcfcf
+					.log_in_mobile
+						display block!important
+						height auto
+					.welcome
+						font-size 1.3em
+						min-height 51px
+						height auto
+						padding-top 4px
+						position relative
+						padding-left 0
+						.bien
+							display none
+						.user_icon
+							display block
+						
+						a 
+							background none
+							color #cfcfcf
+							width 100%
+						span
+							display block
+							position absolute
+							height 40px
+							width 40px
+							background url('../images/sprite.png') -96px -817px
+							right 8px
+							top 4px
+						&.log_in
+							span								
+								left 50%
+								margin-left -20px
+							.iniciar_sesion
+								text-align center
+								.registrate
+									background #333
+									float left
+									width: 320px;
+									color #fff
+									padding-bottom 10px
+									font-size 1.2em
+									width 100%
+									.registrate_btn
+										display initial
+										color #fff										
+										padding 4px 10px
+										width auto
+										background #EE8435
+										float none
+										width 110px
+										font-size 0.9em
+										text-decoration none
+							.registro_form
+								text-align center
+								padding-top 33px
+								.sel1
+									height 33px
+									width 54px
+									padding 0
+									margin-right 7px
+									font-size 0.9em
+								.sel2
+									height 33px
+									width 144px
+									font-size 0.9em
+									margin-left -48px
+								.finalizar_btn
+									display initial
+									color #fff										
+									padding 4px 10px
+									width auto
+									background #EE8435
+									float none
+									width 110px
+									font-size 0.9em
+									text-decoration none
+								.redes_sociales
+									background #333
+									float left
+									width: 100%;
+									color #fff
+									padding-bottom 10px
+									font-size 1.2em
+									margin-top 25px
+									padding-bottom 10px
+									a 
+										height 40px
+										width 40px
+										display inline-block
+										margin 0px 8px
+										vertical-align top
+										background url('../images/sprite.png') 
+										float none
+										&.fb
+											background-position -2px -818px
+										&.tw
+											background-position -50px -818px
+										&.gp
+											background-position -188px -818px
+
+						.login_input
+							width 189px
+							height 33px
+							margin-top 12px
+							padding 0
+							padding-left 5px
+							line-height 1em
+						.btn_login
+							width 80px
+							color #fff
+							text-align left
+							background url('../images/sprite.png') -155px -780px
+							border none
+							height 27px
+							padding 0
+							line-height 1em
+							font-size 0.9em
+							margin-top 12px
+							margin-left 108px
+						.lnk1
+							color #8C8C8C
+							font-size 0.9em
+							height auto
+
+
+
 
 				.search_box
-					width 700px
+					width 688px
 					float left
 					display block
+					top 5px
+
 				a 
-					width 34px
-					height 25px
+					height 35px
+					margin-top 1px
+					width 40px
 					display block
 					float left
 					background url('../images/sprite.png')
 					padding 0 5px 0
-					
+				
+
 					&.show_menu
-						background-position -175px -416px
+						background-position -198px -731px
 						&.active
 							background-color #3d3d3d
 					&.config
-						background-position -40px -377px
+						background-position -157px -730px
 						&.active
 							background-color #3d3d3d
 					&:hover
@@ -3059,13 +3232,57 @@ footer
 						height 23px
 						vertical-align top
 						padding-left 20px
+						z-index: 1000;
+						position: relative;
 					.btn_search
 						background url('../images/sprite.png') -129px -733px
 						width 20px
 						height 23px
 						margin-top 0
 
+		
+		&.menu_fixed
+			
+			.options_menu_fixed
+			.menu
+				display none!important
+			.menu_responsive
+				.options
+					.search_box
+						display none
+						position absolute!important
+						top 36px
+						right 39px
+						background-color #3a3a3a
+						width 248px!important
+						height 35px!important
+						-webkit-border-bottom-right-radius: 10px;
+						-webkit-border-bottom-left-radius: 10px;
+						-moz-border-radius-bottomright: 10px;
+						-moz-border-radius-bottomleft: 10px;
+						border-bottom-right-radius: 10px;
+						border-bottom-left-radius: 10px;
 
+						.bg_search
+							top 7px!important
+						input
+							margin-top 4px!important
+
+
+			.circles
+				display block!important
+				float left
+				width 648px
+				background url('../images/sprite.png') center -598px no-repeat
+				height 24px
+			.search
+				display block!important
+				float left
+				background-position -1px -372px !important
+				&.active 
+					background-color #3a3a3a
+
+	
 		.user_options
 			display none
 	footer
@@ -3181,6 +3398,7 @@ footer
 				padding 20px 10px
 				color #727171
 				bottom 0
+				background none
 			img
 				width 100%
 				height auto
@@ -3473,153 +3691,7 @@ footer
 
 				.circles
 					width 200px
-				.showing_config
-				.showing_menu
-					top 36px
-				.showing_config
-					.pick_color
-					.share
-					.change
-						display none
-						background #333
-						padding-bottom 10px
-						overflow hidden
-						height 107px
-						span
-							font-size 1.4em
-						a 
-							float none
-					.cerrar_sesion
-						padding 10px 0
-						a 
-							float right
-							margin-right 10px
-							text-decoration none
-							width: 100%;
-							background: none;
-							font-size: 1.2em;
-							color #cfcfcf
-					.log_in_mobile
-						display block!important
-					.welcome
-						font-size 1.3em
-						min-height 51px
-						height auto
-						padding-top 4px
-						position relative
-						.bien
-							display none
-						.user_icon
-							display block
-						
-						a 
-							background none
-							color #cfcfcf
-							width 100%
-						span
-							display block
-							position absolute
-							height 40px
-							width 40px
-							background url('../images/sprite.png') -96px -817px
-							right 8px
-							top 4px
-						&.log_in
-							span								
-								left 50%
-								margin-left -20px
-							.iniciar_sesion
-								text-align center
-								.registrate
-									background #333
-									float left
-									margin: 0 0 0 -14px;
-									width: 320px;
-									color #fff
-									padding-bottom 10px
-									font-size 1.2em
-									.registrate_btn
-										display initial
-										color #fff										
-										padding 4px 10px
-										width auto
-										background #EE8435
-										float none
-										width 110px
-										font-size 0.9em
-										text-decoration none
-							.registro_form
-								text-align center
-								padding-top 33px
-								.sel1
-									height 33px
-									width 54px
-									padding 0
-									margin-right 7px
-									font-size 0.9em
-								.sel2
-									height 33px
-									width 144px
-									font-size 0.9em
-									margin-left -48px
-								.finalizar_btn
-									display initial
-									color #fff										
-									padding 4px 10px
-									width auto
-									background #EE8435
-									float none
-									width 110px
-									font-size 0.9em
-									text-decoration none
-								.redes_sociales
-									background #333
-									float left
-									margin: 0 0 0 -14px;
-									width: 320px;
-									color #fff
-									padding-bottom 10px
-									font-size 1.2em
-									margin-top 25px
-									padding-bottom 10px
-									a 
-										height 40px
-										width 40px
-										display inline-block
-										margin 0px 8px
-										vertical-align top
-										background url('../images/sprite.png') 
-										float none
-										&.fb
-											background-position -2px -818px
-										&.tw
-											background-position -50px -818px
-										&.gp
-											background-position -188px -818px
-
-						.login_input
-							width 189px
-							height 33px
-							margin-top 12px
-							padding 0
-							padding-left 5px
-							line-height 1em
-						.btn_login
-							width 80px
-							color #fff
-							display block
-							text-align left
-							background url('../images/sprite.png') -155px -780px
-							border none
-							height 27px
-							padding 0
-							line-height 1em
-							font-size 0.9em
-							margin-left 167px
-							margin-top 12px
-						.lnk1
-							color #8C8C8C
-							font-size 0.9em
+				
 
 				.showing_menu
 					padding-top 0
@@ -3648,12 +3720,13 @@ footer
 										background-position -2px -818px
 
 		&.menu_fixed
-			.options
-				.search_box
-					top 36px
-					height 38px!important
-					right 39px				
-					display none
+			.menu_responsive
+				.options
+					.search_box
+						top 36px
+						height 38px!important
+						right 39px				
+						display none
 			.search
 				background-position -1px -372px !important
 
@@ -3858,6 +3931,8 @@ footer
 					width 320px
 				.list_content
 					margin-left 0
+					width 320px
+					border none
 					.tabs
 					.paginate
 						display none
@@ -3866,6 +3941,9 @@ footer
 						.filter
 							background #fff
 							margin-bottom 30px
+							width 320px
+							padding 8px
+							height auto
 						article
 							width 300px
 							margin-left 10px

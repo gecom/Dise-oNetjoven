@@ -97,6 +97,7 @@ $(document).scroll(function() {
 		}
 		else{
 			$("#main_nav").removeClass("menu_fixed");	
+			$('.options .search_box').show();
 		}
 
 
