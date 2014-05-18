@@ -2898,6 +2898,7 @@ footer
 		
 		.menu_desktop
 			display none
+							
 		.menu_responsive
 			display block!important	
 
@@ -3060,98 +3061,7 @@ footer
 								background-position -113px -509px
 
 
-								
-				.showing_menu
-					position absolute
-					background-color #3a3a3a
-					top 25px
-					left 0
-					width 100%
-					z-index 900
-					padding-top 0
-					-webkit-border-bottom-right-radius: 10px;
-					-webkit-border-bottom-left-radius: 10px;
-					-moz-border-radius-bottomright: 10px;
-					-moz-border-radius-bottomleft: 10px;
-					border-bottom-right-radius: 10px;
-					border-bottom-left-radius: 10px;
-					overflow hidden
-					
-					.opt_menu 
-						width 100%
-						line-height 24px
-						background-color #353535
-						border-top 1px solid #3d3d3d
-						height 32px
-
-						&:last-child
-							height 43px
-							background-color #3a3a3a
-							color #cfcfcf
-							line-height 43px
-							padding-left 15px
-							text-align left
-
-							a 
-								height 30px
-								width 29px
-								display inline-block
-								margin-right 8px
-								margin-top 6px
-								background url('../images/sprite.png') no-repeat 
-								float right
-								&.fb
-									background-position -1px -461px
-									&:hover
-										background-position -108px -461px	
-								&.tw
-									background-position -37px -461px
-									&:hover
-										background-position -144px -461px
-								&.gp
-									background-position -73px -461px
-									&:hover
-										background-position -180px -461px
-						
-						a
-							height 24px
-							width 100%
-							display block
-							color #cfcfcf
-							background none
-							text-align left
-							padding-left 15px
-							font-size 0.9em
-							background-image url('../images/sprite.png')
-							background-repeat no-repeat
-							background-position right -568px
-
-				.showing_menu
-					padding-top 0
-					.opt_menu
-						height 32px						
-						a 
-							height 30px
-							font-size 1.3em
-							background-position 737px -781px
-						&:last-child
-							font-size 1.3em
-							height 62px
-							padding-top 5px
-							a 
-								width 40px
-								height 41px
-								&.gp
-									display none
-								&.tw
-									background-position -50px -818px
-									&:hover
-										background-position -50px -818px
-								&.fb
-									background-position -2px -818px
-									&:hover
-										background-position -2px -818px
-
+				
 				.showing_config
 				.showing_menu
 					top 36px
@@ -3368,6 +3278,7 @@ footer
 			.options_menu_fixed
 			.menu
 				display none!important
+				height auto
 			.menu_responsive
 				.options
 					.search_box
@@ -3403,10 +3314,215 @@ footer
 				background-position -1px -372px !important
 				&.active 
 					background-color #3a3a3a
+			.showing_menu
+				display block!important
+				position absolute
+				background-color #3a3a3a
+				top 36px
+				left 0
+				width 100%
+				z-index 900
+				padding-top 0
+				-webkit-border-bottom-right-radius: 10px;
+				-webkit-border-bottom-left-radius: 10px;
+				-moz-border-radius-bottomright: 10px;
+				-moz-border-radius-bottomleft: 10px;
+				border-bottom-right-radius: 10px;
+				border-bottom-left-radius: 10px;
+				overflow hidden
+				
+				.opt_menu 
+					width 100%
+					line-height 24px
+					background-color #353535
+					border-top 1px solid #3d3d3d
+					height 32px
+					margin-left 0
+					border-radius(0)
 
-	
+					&:last-child
+						height 43px
+						background-color #3a3a3a
+						color #cfcfcf
+						line-height 43px
+						padding-left 15px
+						text-align left
+
+						a 
+							height 30px
+							width 29px
+							display inline-block
+							margin-right 8px
+							margin-top 6px
+							background url('../images/sprite.png') no-repeat 
+							float right
+							&.fb
+								background-position -1px -461px
+								&:hover
+									background-position -108px -461px	
+							&.tw
+								background-position -37px -461px
+								&:hover
+									background-position -144px -461px
+							&.gp
+								background-position -73px -461px
+								&:hover
+									background-position -180px -461px
+					
+					a
+						height 24px
+						width 100%
+						display block
+						color #cfcfcf
+						background none
+						text-align left
+						padding-left 15px
+						font-size 0.9em
+						background-image url('../images/sprite.png')
+						background-repeat no-repeat
+						background-position right -568px
+
+			.showing_menu
+				padding-top 0
+				margin-right 0!important
+				.opt_menu
+					height 32px		
+					&.active
+					&:hover
+						background-color none!important				
+					a 
+						height 30px
+						font-size 1.3em
+						background-position 737px -781px
+						padding-top 3px!important
+						
+						
+					&:last-child
+						font-size 1.3rem
+						height 62px
+						padding-top 5px
+						a 
+							width 40px
+							height 41px
+							&.gp
+								display none
+							&.tw
+								background-position -50px -818px
+								&:hover
+									background-position -50px -818px
+							&.fb
+								background-position -2px -818px
+								&:hover
+									background-position -2px -818px
+
+
+
+		.showing_menu
+			display block!important
+			position absolute
+			background-color #3a3a3a
+			top 71px
+			left 0
+			width 100%
+			z-index 900
+			padding-top 0
+			-webkit-border-bottom-right-radius: 10px;
+			-webkit-border-bottom-left-radius: 10px;
+			-moz-border-radius-bottomright: 10px;
+			-moz-border-radius-bottomleft: 10px;
+			border-bottom-right-radius: 10px;
+			border-bottom-left-radius: 10px;
+			overflow hidden
+			
+			.opt_menu 
+				width 100%
+				line-height 24px
+				background-color #353535
+				border-top 1px solid #3d3d3d
+				height 32px
+				margin-left 0
+				border-radius(0)
+
+				&:last-child
+					height 43px
+					background-color #3a3a3a
+					color #cfcfcf
+					line-height 43px
+					padding-left 15px
+					text-align left
+
+					a 
+						height 30px
+						width 29px
+						display inline-block
+						margin-right 8px
+						margin-top 6px
+						background url('../images/sprite.png') no-repeat 
+						float right
+						&.fb
+							background-position -1px -461px
+							&:hover
+								background-position -108px -461px	
+						&.tw
+							background-position -37px -461px
+							&:hover
+								background-position -144px -461px
+						&.gp
+							background-position -73px -461px
+							&:hover
+								background-position -180px -461px
+				
+				a
+					height 24px
+					width 100%
+					display block
+					color #cfcfcf
+					background none
+					text-align left
+					padding-left 15px
+					font-size 0.9em
+					background-image url('../images/sprite.png')
+					background-repeat no-repeat
+					background-position right -568px
+
+		.showing_menu
+			padding-top 0
+			margin-right 0!important
+			.opt_menu
+				height 32px		
+				&.active
+				&:hover
+					background-color none!important				
+				a 
+					height 30px
+					font-size 1.3em
+					background-position 737px -781px
+
+					
+				&:last-child
+					font-size 1.3rem
+					height 62px
+					padding-top 5px
+					a 
+						width 40px
+						height 41px
+						&.gp
+							display none
+						&.tw
+							background-position -50px -818px
+							&:hover
+								background-position -50px -818px
+						&.fb
+							background-position -2px -818px
+							&:hover
+								background-position -2px -818px
+
+		
 		.user_options
 			display none
+
+		
+
 	footer
 		display none
 
@@ -3804,6 +3920,7 @@ footer
 						background-position -157px -730px
 				.search_box
 					width 240px
+					top 0
 					.bg_search
 						top 6px
 						width 232px

@@ -48,11 +48,18 @@ $(".options_menu_fixed .search ").on('click', function(e){
 
 $(".options .show_menu").on('click', function(e){
 	e.preventDefault();
-	$('.showing_menu').toggle();
+	$('.menu_desktop').toggle();
 	if($('.show_menu').hasClass('active')){		
-		$('.show_menu').removeClass('active')
+		$('.show_menu').removeClass('active');
+		$('.menu_desktop').removeClass('showing_menu').css('display','');
+		$('.menu_desktop li').removeClass('opt_menu');
+		$('.menu_desktop .conecta_comparte').hide();
+
 	} else {
-		$('.show_menu').addClass('active')
+		$('.show_menu').addClass('active');
+		$('.menu_desktop').addClass('showing_menu');
+		$('.menu_desktop li').addClass('opt_menu');
+		$('.menu_desktop .conecta_comparte').show();
 	}	
 })
 
@@ -93,11 +100,11 @@ $(document).scroll(function() {
 		var scrolledHeight = $(document).scrollTop();
 
 		if(scrolledHeight >= 95){
-			$("#main_nav").addClass("menu_fixed");
+			$("#main_nav").addClass("menu_fixed");			
 		}
 		else{
 			$("#main_nav").removeClass("menu_fixed");	
-			$('.options .search_box').show();
+			$('.options .search_box').show();			
 		}
 
 
