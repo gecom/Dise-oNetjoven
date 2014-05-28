@@ -14,6 +14,7 @@ a{color:#6d6d6d}
 .list_articles .text a:hover{color:#6d6d6d !important}
 .busqueda_left{width:337px;float:left}
 .busqueda_right{float:left;width:608px}
+.floating_radio{position:fixed;top:350px;right:0;width:83px;height:158px;-webkit-box-shadow:1px 1px 4px 0 #6d6d6d;-moz-box-shadow:1px 1px 4px 0 #6d6d6d;box-shadow:1px 1px 4px 0 #6d6d6d}
 header{background-image:url("../images/bg_banner.png");background-repeat:no-repeat;height:94px;width:960px;-webkit-box-shadow:1px 1px 4px 0 #6d6d6d;-moz-box-shadow:1px 1px 4px 0 #6d6d6d;box-shadow:1px 1px 4px 0 #6d6d6d;z-index:1;}
 header .row{margin:0}
 header .col-xs-6{padding:0}
