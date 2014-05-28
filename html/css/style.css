@@ -551,7 +551,8 @@ footer .footer_devices .fd2{background:url("../images/sprite.png") -144px -188px
 #horoscopo_resultados .left_horoscopo #ads{width:300px;border:0;padding:0;}
 #horoscopo_resultados .left_horoscopo #ads .item{width:140px;margin-left:20px;margin-bottom:20px;}
 #horoscopo_resultados .left_horoscopo #ads .item:nth-child(odd){margin-left:0}
-@media screen and (max-width:1000px){.container{width:768px;margin:0 auto;padding:0}
+@media screen and (max-width:1000px){.floating_radio{display:none}
+.container{width:768px;margin:0 auto;padding:0}
 header{overflow:hidden;width:768px;}
 header .social,header .search{display:none}
 #main_nav{width:768px;}
